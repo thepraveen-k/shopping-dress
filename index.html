@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Special</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<center>
+    <h1>SELECT YOUR CHOICE</h1>
+</center>
+
+<div class="category-buttons">
+    <button class="category-button" onclick="filterProducts('men')">Men</button>
+    <button class="category-button" onclick="filterProducts('women')">Women</button>
+    <button class="category-button" onclick="filterProducts('kids')">Kids</button>
+</div>
+
+<div id="menProducts" class="container">
+    <div class="product-card">
+        <img class="product-image" src="images/shopify1.png" alt="Product">
+        <div class="discount-label">Wedding Special</div>
+        <h2 class="product-title">Mens Kurta • Manyvar</h2>
+        <div class="price-container">
+            
+            <p class="product-price">Rs 1199.00 </p>
+            &nbsp;&nbsp;
+            <strike class="product-original-price"> 1299.00</strike>
+            <p class="product-price discount">50% Off</p>
+        </div>
+        <button class="add-to-cart-btn">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img class="product-image" src="images/shopify2.png" alt="Product">
+        <h2 class="product-title">RCB Tshirt • Puma</h2>
+        <div class="price-container">
+            <p class="product-price">Rs 2199.00</p>
+            &nbsp;&nbsp;
+            <strike class="product-original-price">Rs 4299.00</strike>
+            <p class="product-price discount">50% Off</p>
+            
+        </div>
+        <button class="add-to-cart-btn">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img class="product-image" src="images/shopify3.png" alt="Product">
+        <div class="discount-label">On Offer</div>
+        <h2 class="product-title">Green Charm • Myntra</h2>
+        <div class="price-container">
+            <p class="product-price">Rs 1399.00</p>
+            &nbsp;&nbsp;
+            <strike class="product-original-price">Rs 1499.00</strike>
+            <p class="product-price discount">50% Off</p>
+        </div>
+        <button class="add-to-cart-btn">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img class="product-image" src="images/shopify4.png" alt="Product">
+        <div class="discount-label">New Season</div>
+        <h2 class="product-title">Mens Tshirt • Myntra</h2>
+        <div class="price-container">
+            <p class="product-price">Rs 599.00</p>
+            &nbsp;&nbsp;
+            <strike class="product-original-price">Rs 799.00</strike>
+            <p class="product-price discount">50% Off</p>
+        </div>
+        <button class="add-to-cart-btn">Add to Cart</button>
+    </div> 
+</div>
+
+<div id="womenProducts" class="container" style="display: none;">
+       <!--i will add the women products details on index.js-->
+</div>
+
+<div id="kidsProducts" class="container" style="display: none;">
+     <!--i will add the kids products details on index.js-->
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
